@@ -1,13 +1,11 @@
 # Fetch wheels from the scikit-image-wheels binstar index
-# Those wheels were copied from http://www.lfd.uci.edu/~gohlke/pythonlibs/
-# This is a temporary solution. As soon as numpy, scipy and cython provide
-
-# fix the versions of binary packages to force the use of the binstar whl
-# instead of trying to install from PyPI.
-numpy==1.8.1
-scipy==0.14.0
-cython>=0.21
-matplotlib==1.4.2
-pillow==2.6.1
+# which were copied from http://www.lfd.uci.edu/~gohlke/pythonlibs/
+# This is a temporary solution. As soon as numpy, scipy, cython etc provide
+# wheels on PyPI this can be depreciated.
+numpy
+scipy
+cython
+matplotlib
+pillow
 wheel
 nose
