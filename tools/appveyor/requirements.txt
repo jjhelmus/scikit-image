@@ -2,10 +2,13 @@
 # which were copied from http://www.lfd.uci.edu/~gohlke/pythonlibs/
 # This is a temporary solution. As soon as numpy, scipy, cython etc provide
 # wheels on PyPI this can be depreciated.
+matplotlib
 numpy
 scipy
-cython
-matplotlib
+six
+networkx
 pillow
+dask[array]
+cython
 wheel
 nose
